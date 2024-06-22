@@ -10,7 +10,7 @@ const reportRoutes = require('./routes/reportRoutes');
 const app = express();
 app.use(express.json());
 app.get('/',(req,res)=>{
-    res.send('Welcome to Employee Review');
+    res.send('Welcome to Hospital API');
   });
 app.use('/doctors', doctorRoutes);
 app.use('/patients', patientRoutes);
